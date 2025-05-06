@@ -1,4 +1,4 @@
-# ai_recipe_maker# AI Recipe Maker
+AI Recipe Maker
 
 Welcome to the AI Recipe Maker! This application allows users to generate custom recipes based on given ingredients and preferences. The AI-powered model uses advanced algorithms to suggest recipes and provide detailed instructions, ensuring you can create delicious meals with ease.
 
