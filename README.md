@@ -1,27 +1,33 @@
-AI Recipe Maker
+# AI Recipe Generator 🍳
 
-Welcome to the AI Recipe Maker! This application allows users to generate custom recipes based on given ingredients and preferences. The AI-powered model uses advanced algorithms to suggest recipes and provide detailed instructions, ensuring you can create delicious meals with ease.
+An AI-powered recipe generator that suggests recipes based on ingredients you have, using machine learning and natural language processing techniques.
 
-## Features
+## Features ✨
 
-- **Ingredient-based recipe generation**: Enter a list of ingredients, and the AI will suggest recipes that you can make with them.
-- **Dietary preferences**: Specify dietary restrictions or preferences (e.g., vegan, gluten-free, low-carb), and the AI will generate recipes that meet those needs.
-- **Cuisine options**: Choose your preferred cuisine, and the AI will tailor recipes to that style.
-- **Cooking instructions**: Detailed step-by-step cooking instructions are provided for each generated recipe.
-- **User-friendly interface**: Simple and easy-to-use interface to interact with the AI.
+- Generates recipes based on available ingredients
+- Finds the most relevant recipes using cosine similarity
+- Simple and intuitive interface
+- FastAPI backend with Streamlit frontend
+- Works with your custom dataset
 
-## Getting Started
+## Technologies Used 🛠️
 
-### Prerequisites
+- Python 3.8+
+- FastAPI (backend)
+- Streamlit (UI)
+- Scikit-learn (ML)
+- Pandas (data processing)
+- NLTK (text processing)
 
-Before you begin, ensure you have the following installed:
+## Dataset 📊
 
-- Python 3.7 or higher
-- Required Python libraries (listed in `requirements.txt`)
+The system uses the `test-5000.csv` dataset containing:
+- `inputs`: List of ingredients
+- `targets`: Complete recipes with instructions
 
-### Installation
+## Installation ⚙️
 
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/yourusername/ai-recipe-maker.git
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/recipe-generator.git
+cd recipe-generator
